@@ -8,3 +8,4 @@ com_run(To, From, Myid, SrvPub) -> % hand off operation to runner
   'todo'.
 
 com_logs(Request, Mykey) -> % handle log communication
+  'todo'.
