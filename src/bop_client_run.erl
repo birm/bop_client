@@ -4,17 +4,18 @@
 % for this, it's important to understand that the application gets everything together, accumulates it, then runs it
 % things are added, not ran, on verification. This handles both adding and running
 
-run_new(Request) -> % handle a request to run something
+
+run_pre(Request, Scheme) -> % get precondition test
   'todo'.
 
-run_getpre(Request, Scheme) -> % get precondition test
+run_post(Request, Scheme) -> % get post-action test, call undo if failed
   'todo'.
 
-run_getlog(Request, Scheme) -> % get log action
+run_undo(Request, Scheme) -> % send undo instruction
   'todo'.
 
-run_add(Post, Mykey) -> % add to list of things to do
+run_add(Post, Mykey) -> % add to queue
   'todo'.
 
-run_lightit(Scheme) -> % run everything collected
+run_go(Scheme) -> % run from queue
   'todo'.
