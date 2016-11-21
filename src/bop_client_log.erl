@@ -4,11 +4,11 @@
 log_handle(Type, List) -> % handle log information in
   'todo'.
 
-log_process(Log, Severity) -> % process log information on client
+log_accumulate(Log, Severity) -> % process log information on client
   'todo'.
 
-log_send(Loglist) -> % send log information to com
+log_reduce(Loglist) -> % simplify log messages to be useful
   'todo'.
 
-log_local(Loglist) -> % make useful local log copy for client
+log_out(Loglist) -> % send logs to com and out to server
   'todo'.
