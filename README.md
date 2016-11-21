@@ -11,4 +11,4 @@ Client to communicate securely with master and run the appropriate commands for 
 
 ## Architectural diagram for bop_Client
 May be out of date, either old or upcoming conceptual change
-![Architectural diagram for bop_client](https://github.com/birm/bop_server/blob/master/bop_client_diagram.png?raw=true)
+![Architectural diagram for bop_client](https://raw.githubusercontent.com/birm/bop_client/master/bop_client_diagram.png)
