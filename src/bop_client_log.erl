@@ -9,7 +9,7 @@ log_handle(Type, List) -> % handle log information in
   % if log level includes this type
   log_accumulate(List).
 
-log_accumulate(Log, Severity) -> % process log information on client
+log_accumulate(Log) -> % process log information on client
   Buffer = Log. % keep a certain amount of logs in a buffer
   % when the buffer is ready
   log_reduce(Buffer). % send the list buffer to the reduce
